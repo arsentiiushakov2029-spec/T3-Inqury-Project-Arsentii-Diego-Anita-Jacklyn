@@ -1,0 +1,33 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    width: 100vw;
+    height: 65vh;
+}
+
+.button{
+    /* display: flex;
+    justify-content: center; */
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 30px;
+    width: 45vw;
+    height: 15vh;
+    background-color:#FFFDF7;
+    color: gold;
+}
+
+.div{
+    display: flex;
+    width: 50%;
+    padding-top: 25vh;
+}
+
+.hero{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
