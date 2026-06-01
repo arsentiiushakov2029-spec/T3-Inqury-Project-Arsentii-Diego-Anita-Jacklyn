@@ -1,6 +1,7 @@
 #header{
     display: flex;
     justify-content: space-between;
+    color: gold
 }
 
 .img{
@@ -18,6 +19,7 @@
     height: 15vh;
     background-color:#FFFDF7;
     color: gold;
+    font-size: x-large;
 }
 
 .div{
@@ -31,3 +33,12 @@
     flex-direction: column;
     align-items: center;
 }
+
+body{
+    background-color: #1E352F;
+}
+
+.about-us{
+    color: #FFFDF7;
+}
+
