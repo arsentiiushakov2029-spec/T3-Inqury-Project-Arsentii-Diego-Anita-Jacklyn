@@ -1,0 +1,11 @@
+.text{
+    display:flex;
+    flex-direction:column;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    
