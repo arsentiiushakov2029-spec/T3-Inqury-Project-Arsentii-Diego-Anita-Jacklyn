@@ -1,7 +1,46 @@
-#header{
-    display: flex;
-    justify-content: space-between;
-    color: gold
+.logo{
+    width:75px;
+    height:75px;
+    display: inline-block;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap: 100px;
+margin: 0;
+padding: 0;
+}
+
+.nav-links li {
+display: inline;
+color: rgb(139, 118, 41);
+}
+
+.nav-links a {
+color: rgb(209, 60, 5);
+text-decoration: none;
+font-size: 16px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.logo-p{
+    color: azure;
+    display:inline-block
+   
+}
+
+.navbar {
+background-color: rgb(178, 150, 59);
+color: yellow;
+padding: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .img{
@@ -40,5 +79,13 @@ body{
 
 .about-us{
     color: #FFFDF7;
+    width: 50vw;
+}
+
+#about-us-image{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    width: 40vw;
 }
 
