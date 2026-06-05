@@ -1,11 +1,22 @@
 .text{
     display:flex;
     flex-direction:column;
+    background-color: darkslategrey;
+}
 
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 10px;
-    }
-    
+.blue-book {
+    width: 35vw;
+    height: 85vh;
+
+}
+
+.honey-black {
+    width: 35vw;
+    height: 85vh;
+
+}
+
+.red-book {
+    width: 35vw;
+    height: 85vh;
+}
