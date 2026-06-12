@@ -91,13 +91,53 @@ body{
 
 .location-text{
     color: white;
-    padding-top: 50px;;
+    padding-top: 50px;
+    margin: 35px;
+   
+    
 }
 
 .location-button{
-    background-color: #FFFDF7;
-    width: 45vw;
-    height: 15vh;
     border: 2px solid black;
     border-radius: 20px;
+    margin: 5px;
+    width: 40vw;
+    height: 15vh;
+    background-color:#FFFDF7;
+    color: gold;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet-ppl{
+    color: white;
+    padding-top: 50px;
+    margin: 35px;
+}
+
+.change{
+    display: flex;
+    flex-direction: row;
+}
+   
+.bookmates{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    width: 40vw;
+    height: 15vh;
+    background-color:#FFFDF7;
+    color: gold;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 54px;
+}
+
+footer{
+   color:#FFFDF7;
+   background-color: rgb(178, 150, 59);
 }
